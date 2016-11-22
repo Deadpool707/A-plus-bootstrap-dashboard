@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>A-plus</title>
+    <link href="assets/css/basics/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/basics/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/basics/animate.css" rel="stylesheet">
+    <link href="assets/css/basics/normalize.css" rel="stylesheet">
+    <link href="assets/css/basics/responsive.css" rel="stylesheet">
+    <link class="mainstyle" href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Start Owl Curasol Plugin Css Style Sheet -->
+    <link href="assets/css/plugins/owl-curasol/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl-curasol/owl.theme.css" rel="stylesheet">
+    <!-- End Owl Curasol Plugin Css Style Sheet -->
+    <!-- Start Styles Icludes for query table Plugin -->
+    <link href="assets/css/plugins/datatables/jquery.dataTables.css" rel="stylesheet">
+    <!-- End Styles Icludes for query table Plugin -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/basics/html5shiv.js"></script>
+    <script src="assets/js/basics/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!--/head-->
+<div id="wrapper">
+    <!-- START COLOR SETTING SECTION -->
+    <ul class="list-inline setting">
+        <li class="icon-setting"><i class="fa fa-gear fa-2x fa-spin"></i></li>
+        <li>
+            <div class="setting-menu animated fadeIn">
+                <h4 class="text-danger text-center">Color Setting</h4>
+                <hr>
+                <ul class="list-unstyled colorlist">
+                    <li><a href="#" rel="assets/css/style.css">Default Color</a></li>
+                    <li><a href="#" rel="assets/css/color/dark1.css">Dark One</a></li>
+                    <li><a href="#" rel="assets/css/color/dark2.css">Dark Two</a></li>
+                    <li><a href="#" rel="assets/css/color/bright1.css">Bright One</a></li>
+                    <li><a href="#" rel="assets/css/color/bright2.css">Bright Two</a></li>
+
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <!-- END COLOR SETTING SECTION -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+            <a class="navbar-brand" href="index.htmll"><img src="assets/images/logo.png" alt="" style="height:40px;" /></a>
+            <a class="hidden-xs" id="menu-toggle"><span class="btn btn-border menubutton">
+              <span class="glyphicon glyphicon-remove animated fadeIn"></span>
+        </span></a>
+            <form class="navbar-form navbar-right hidden-xs">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>
+        </div>
+        <!-- /.navbar-header -->
+        <ul class="nav navbar-top-links navbar-right hidden-xs">
+            <li class="hidden-xs">Welcome To A-plus Dashboard</li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-envelope fa-stack icon-border fa-fw"></i><i class="label label-danger">4</i>
+                </a>
+                <ul class="dropdown-menu dropdown-messages animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/01.jpg" alt="" />
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                    <em>Yesterday</em>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/02.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                    <em>Yesterday</em>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/03.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                    <em>Yesterday</em>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/04.jpg" alt="" />
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                    <em>Yesterday</em>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/01.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-warning">
+                                    <em>Yesterday</em>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>Read All Messages</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-messages -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-tasks fa-stack icon-border fa-fw"></i> <i class="label label-default">3</i>
+                </a>
+                <ul class="dropdown-menu dropdown-tasks animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Download</strong>
+                                    <span class="pull-right text-muted">40% Complete</span>
+                                </p>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40% Complete (success)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Upload</strong>
+                                    <span class="pull-right text-muted">20% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        <span class="sr-only">20% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Install</strong>
+                                    <span class="pull-right text-muted">60% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% Complete (warning)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>update</strong>
+                                    <span class="pull-right text-muted">80% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>See All Tasks</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-tasks -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-bell fa-stack icon-border fa-fw"></i><i class="label label-warning">4</i>
+                </a>
+                <ul class="dropdown-menu dropdown-alerts animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-comment fa-fw text-success"></i> New Comment
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-twitter fa-fw text-danger"></i> 3 New Followers
+                                <span class="pull-right text-muted small">12 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-envelope fa-fw text-primary"></i> Message Sent
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-tasks fa-fw text-warning"></i> New Task
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-upload fa-fw text-info"></i> Server Rebooted
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-alerts -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user icon-border fa-stack fa-fw"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="login.htmll"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+        </ul>
+        <!-- /.navbar-top-links -->
+        <div class="navbar-default sidebar animated fadeIn" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <div class="profile">
+                    <img src="assets/images/01.jpg" class="pull-left img-circle" alt="" />
+                    <div class="pull-left name">
+                        <i>ALex Wilder</i>
+                        <br>
+                        <i class="fa fa-circle text-success"> Online</i>
+                    </div>
+                </div>
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search visible-xs">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                            <button class="btn btn-danger-outline" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="index.html"> <span class="fa fa-circle-o"></span> Dashboard v1</a>
+                            </li>
+                            <li>
+                                <a href="index2.html"><span class="fa fa-circle-o"></span> Dashboard v2</a>
+                            </li>
+                            <li>
+                                <a href="index3.html"><span class="fa fa-circle-o"></span> Dashboard v3</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="chart-flotchart.html"> <span class="fa fa-circle-o"></span> Flot Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-moris.html"><span class="fa fa-circle-o"></span> Morris Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-rickshow.html"><span class="fa fa-circle-o"></span> Rickshow charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-justgage.html"><span class="fa fa-circle-o"></span> Justguage Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-chartjs.html"><span class="fa fa-circle-o"></span> Chart JS</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="widget.html"><i class="fa fa-windows fa-fw"></i> Widgets</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> UI-element<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="ui-buttons.html"> <span class="fa fa-circle-o"></span> Buttons</a>
+                            </li>
+                            <li>
+                                <a href="ui-notification.html"><span class="fa fa-circle-o"></span> Notification</a>
+                            </li>
+                            <li>
+                                <a href="ui-panels.html"><span class="fa fa-circle-o"></span> Panels</a>
+                            </li>
+                            <li>
+                                <a href="ui-progress.html"> <span class="fa fa-circle-o"></span> Progress</a>
+                            </li>
+                            <li>
+                                <a href="ui-tabs.html"><span class="fa fa-circle-o"></span> Tabs</a>
+                            </li>
+                            <li>
+                                <a href="ui-typograhpy.html"><span class="fa fa-circle-o"></span> Typography</a>
+                            </li>
+                            <li>
+                                <a href="ui-radio.html"><span class="fa fa-circle-o"></span> Radio and Checkbox</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-folder-open fa-fw"></i> Forms<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="formbasic.html"> <span class="fa fa-circle-o"></span> Form basic</a>
+                            </li>
+                            <li>
+                                <a href="formadvanced.html"><span class="fa fa-circle-o"></span> Form Advanced</a>
+                            </li>
+                            <li>
+                                <a href="form-validate.html"><span class="fa fa-circle-o"></span> Form Validate</a>
+                            </li>
+                            <li>
+                                <a href="form-upload.html"> <span class="fa fa-circle-o"></span> Form upload</a>
+                            </li>
+                            <li>
+                                <a href="form-timline.html"><span class="fa fa-circle-o"></span> Timeline</a>
+                            </li>
+                            <li>
+                                <a href="form-texteditor.html"><span class="fa fa-circle-o"></span> Text Editor</a>
+                            </li>
+                            <li>
+                                <a href="form-markdown.html"><span class="fa fa-circle-o"></span> Markdown</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-envelope-o fa-fw"></i> Mail box<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="mail.html"><span class="fa fa-circle-o"></span> Mail</a>
+                            </li>
+                            <li>
+                                <a href="mail-view.html"><span class="fa fa-circle-o"></span> Mail-View</a>
+                            </li>
+                            <li>
+                                <a href="mail-compose.html"><span class="fa fa-circle-o"></span> Mail-compose</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-table fa-fw"></i> Tables<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="tabels-static.html"> <span class="fa fa-circle-o"></span> Static tables</a>
+                            </li>
+                            <li>
+                                <a href="tables-datatables.html"><span class="fa fa-circle-o"></span> Data tables</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="maps-vector.html"><i class="fa fa-map-marker fa-fw"></i> Maps</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-picture-o fa-fw"></i> Gallery<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="gallery-lightbox.html"> <span class="fa fa-circle-o"></span> Light box</a>
+                            </li>
+                            <li>
+                                <a href="galley-owlcurasol.html"><span class="fa fa-circle-o"></span> Owl curasol</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> Ecommerce<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="ecommerce-productgrid.html"> <span class="fa fa-circle-o"></span> Product grid</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-productlist.html"><span class="fa fa-circle-o"></span> Product list</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-productview.html"><span class="fa fa-circle-o"></span> Product view</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-shopingcart.html"><span class="fa fa-circle-o"></span> Shoping cart</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-pagelines fa-fw"></i> Extra Pages<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="pages-login.html"><span class="fa fa-circle-o"></span> login page</a>
+                            </li>
+                            <li>
+                                <a href="pages-register.html"><span class="fa fa-circle-o"></span> Register page</a>
+                            </li>
+                            <li>
+                                <a href="pages-lockscreen.html"><span class="fa fa-circle-o"></span> Lock screen</a>
+                            </li>
+                            <li>
+                                <a href="pages-forgetpassword.html"><span class="fa fa-circle-o"></span> Forget password</a>
+                            </li>
+                            <li>
+                                <a href="pages-404.html"><span class="fa fa-circle-o"></span> 404Page</a>
+                            </li>
+                            <li>
+                                <a href="pages-505.html"><span class="fa fa-circle-o"></span> 505Page</a>
+                            </li>
+                            <li>
+                                <a href="blankpage.html"><span class="fa fa-circle-o"></span> Blank page</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#"><span class="fa fa-circle-o"></span> Second Level Item</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="fa fa-circle-o"></span> Second Level Item</a>
+                            </li>
+                            <li>
+                                <a href="#">Third Level <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-third-level -->
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+
+    <div id="page-wrapper" class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header">
+                    <h1>Dashboard V2 <span class="fa fa-dashboard fa-1x"></span></h1>
+                </div>
+            </div>
+        </div>
+        <!--End Headr -->
+        <!-- Start Main Content -->
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="mainpanel">
+                    <div id="area-example" style="width: 100%;height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="mainpanel">
+                    <div id="bar-example" style="width: 100%;height: 300px;"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="mainpanel" style="width: 100%;height: 300px;">
+                    <h4 class="text-center">Recent Posts</h4>
+                    <hr>
+                    <div id="owl-demo" class="owl-carousel owl-theme gallery-widget">
+                        <div class="item"><img src="http://placehold.it/450x180" alt="The Last of us"></div>
+                        <div class="item"><img src="http://placehold.it/450x180" alt="The Last of us"></div>
+                        <div class="item"><img src="http://placehold.it/450x180" alt="The Last of us"></div>
+                        <div class="item"><img src="http://placehold.it/450x180" alt="The Last of us"></div>
+                        <div class="item"><img src="http://placehold.it/450x180" alt="The Last of us"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="widget-chat">
+                    <div class="staticpanel">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <span class="glyphicon glyphicon-comment"></span> Chat
+                                <div class="btn-group pull-right">
+                                    <button type="button" class="btn btn-info btn-border btn-xs dropdown-toggle" data-toggle="dropdown">
+                                       <i class="fa fa-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu slidedown">
+                                        <li><a href="#"><span class="glyphicon glyphicon-refresh text-primary">
+                                         </span>Refresh</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-ok-sign text-danger">
+                                         </span>Available</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-remove text-warning">
+                                         </span>Busy</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-time text-success"></span>
+                                           Away</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-off text-info"></span>
+                                         Sign Out</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="chat">
+                                    <li class="left clearfix"><span class="chat-img pull-left">
+                                   <img src="assets/images/02.jpg" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix">
+                                            <div class="header">
+                                                <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                      <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="right clearfix"><span class="chat-img pull-right">
+                          <img src="assets/images/01.jpg" alt="User Avatar" class="img-circle" />
+                      </span>
+                                        <div class="chat-body clearfix">
+                                            <div class="header">
+                                                <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="left clearfix"><span class="chat-img pull-left">
+                          <img src="assets/images/03.jpg" alt="User Avatar" class="img-circle" />
+                      </span>
+                                        <div class="chat-body clearfix">
+                                            <div class="header">
+                                                <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                      <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="right clearfix">
+                                        <span class="chat-img pull-right"><img src="assets/images/04.jpg" alt="User Avatar" class="img-circle" />
+                                    </span>
+                                        <div class="chat-body clearfix">
+                                            <div class="header">
+                                                <small class=" text-muted">
+                                                <span class="glyphicon glyphicon-time">
+                                                </span>
+                                                15 mins ago
+                                              </small>
+                                                <strong class="pull-right primary-font">
+                                                Bhaumik Patel
+                                              </strong>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="panel-footer">
+                                <div class="input-group">
+                                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                    <span class="input-group-btn">
+                          <button class="btn btn-default btn-border btn-sm" id="btn-chat">
+                              Send</button>
+                      </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Recent Product
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="http://placehold.it/60x60" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Laptop <span class="badge background-success pull-right">343$</span></h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="http://placehold.it/60x60" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Sony <span class="badge background-warning pull-right">1002$</span></h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="http://placehold.it/60x60" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Xbox <span class="badge background-danger pull-right">3233$</span></h4>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Last Order
+                        </div>
+                        <div class="panel-body">
+                            <div class="widget-lastorder">
+                                <table class="table">
+                                    <thead class="text-center border-down">
+                                        <tr>
+                                            <th class="text-center">#</th>
+                                            <th class="text-center">Item No</th>
+                                            <th class="text-center">Item Name</th>
+                                            <th class="text-center">Status</th>
+                                            <th class="text-center">Popularity</th>
+                                            <th class="text-center">Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center">
+                                        <tr class="border-down">
+                                            <td>1</td>
+                                            <td>22D3</td>
+                                            <td>Sony</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline1"></div>
+                                            </td>
+                                            <td><span class="label label-info">232$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>2</td>
+                                            <td>22D3</td>
+                                            <td>Samsung</td>
+                                            <td><span class="label label-warning">Pending</span></td>
+                                            <td>
+                                                <div id="sparkline2"></div>
+                                            </td>
+                                            <td><span class="label label-info">4123$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>3</td>
+                                            <td>22AS3</td>
+                                            <td>lg</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline3"></div>
+                                            </td>
+                                            <td><span class="label label-info">123$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>4</td>
+                                            <td>22AS3</td>
+                                            <td>Sony</td>
+                                            <td><span class="label label-danger">Return</span></td>
+                                            <td>
+                                                <div id="sparkline4"></div>
+                                            </td>
+                                            <td><span class="label label-info">2552$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>5</td>
+                                            <td>2433</td>
+                                            <td>Xbox</td>
+                                            <td><span class="label label-warning">Pending</span></td>
+                                            <td>
+                                                <div id="sparkline5"></div>
+                                            </td>
+                                            <td><span class="label label-info">2242$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>6</td>
+                                            <td>2123</td>
+                                            <td>Playstation</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline6"></div>
+                                            </td>
+                                            <td><span class="label label-info">255$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>7</td>
+                                            <td>45D3</td>
+                                            <td>Tv</td>
+                                            <td><span class="label label-warning">Return</span></td>
+                                            <td>
+                                                <div id="sparkline7"></div>
+                                            </td>
+                                            <td><span class="label label-info">2525$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>8</td>
+                                            <td>343F</td>
+                                            <td>Lcd</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline8"></div>
+                                            </td>
+                                            <td><span class="label label-info">25352$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>9</td>
+                                            <td>67FG</td>
+                                            <td>Lolipop</td>
+                                            <td><span class="label label-warning">Pending</span></td>
+                                            <td>
+                                                <div id="sparkline9"></div>
+                                            </td>
+                                            <td><span class="label label-info">2552$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>10</td>
+                                            <td>GH77</td>
+                                            <td>Windows</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline10"></div>
+                                            </td>
+                                            <td><span class="label label-info">457$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>11</td>
+                                            <td>2112</td>
+                                            <td>Tshirt</td>
+                                            <td><span class="label label-danger">Return</span></td>
+                                            <td>
+                                                <div id="sparkline11"></div>
+                                            </td>
+                                            <td><span class="label label-info">24564$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>12</td>
+                                            <td>2345</td>
+                                            <td>Watch</td>
+                                            <td><span class="label label-warning">Pending</span></td>
+                                            <td>
+                                                <div id="sparkline12"></div>
+                                            </td>
+                                            <td><span class="label label-info">2325$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>13</td>
+                                            <td>22D3</td>
+                                            <td>Glass</td>
+                                            <td><span class="label label-success">Shipped</span></td>
+                                            <td>
+                                                <div id="sparkline13"></div>
+                                            </td>
+                                            <td><span class="label label-info">4545$</span></td>
+                                        </tr>
+                                        <tr class="border-down">
+                                            <td>14</td>
+                                            <td>2W43</td>
+                                            <td>Gift</td>
+                                            <td><span class="label label-warning">Return</span></td>
+                                            <td>
+                                                <div id="sparkline14"></div>
+                                            </td>
+                                            <td><span class="label label-info">23352$</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-success btn-xs btn-border" name="button">Place new order</button>
+                                <button type="button" class="btn btn-info btn-xs btn-border pull-right" name="button">View all order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Main Content -->
+        <div class="row">
+            <div class="footer">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <h5 class="pull-left">&copy; All Rights Reserved AS TEAM </h5>
+                    <h5 class="pull-right">A-Plus v 1.0.0 </h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- /#page-wrapper -->
+    </div>
+</div>
+<!-- /#wrapper -->
+
+<!-- Start Main Script aAll Pages -->
+<script src="assets/js/basics/jquery-3.1.0.min.js"></script>
+<script src="assets/js/basics/bootstrap.min.js"></script>
+<script src="assets/js/basics/metisMenu.min.js"></script>
+<script src="assets/js/basics/jquery.cookie.js"></script>
+<script src="assets/js/function.js"></script>
+
+<!-- End Main Scripts All Pages -->
+<!-- Start scripts dasboard v2 page -->
+<script src="assets/js/plugins/morischarts/raphael-min.js"></script>
+<script src="assets/js/plugins/morischarts/morris.min.js"></script>
+<script src="assets/js/plugins/owl-curasol/owl.carousel.min.js"></script>
+<script src="assets/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="assets/js/dashborad2.js"></script>
+<!-- End scripts dasboard v2 page -->
+</body>
+
+</html>

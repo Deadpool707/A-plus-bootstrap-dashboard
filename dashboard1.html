@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>A-plus</title>
+    <link href="assets/css/basics/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/basics/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/basics/animate.css" rel="stylesheet">
+    <link href="assets/css/basics/normalize.css" rel="stylesheet">
+    <link href="assets/css/basics/responsive.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/basics/html5shiv.js"></script>
+    <script src="assets/js/basics/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!--/head-->
+<div id="wrapper">
+  <!-- Navigation -->
+  <ul class="list-inline setting">
+      <li class="icon-setting"><i class="fa fa-gear fa-2x fa-spin"></i></li>
+      <li>
+          <div class="setting-menu animated fadeIn">
+              <h4 class="text-danger text-center">Color Setting</h4>
+              <hr>
+              <ul class="list-unstyled">
+                  <li>
+                      <div class="btn-group btn-toggle fixed-nav">
+                          <button class="btn btn-xs btn-border btn-success">On</button>
+                          <button class="btn btn-xs btn-border btn-danger">Off</button>
+                      </div>
+                      <span>Fixed Main Navbar</span>
+                  </li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div>
+      </li>
+  </ul>
+  <nav class="navbar navbar-default navbar-static-top " role="navigation" style="margin-bottom: 0">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.htmll"><img src="assets/images/logo.png" alt="" style="height:40px;" /></a>
+          <a class="hidden-xs" id="menu-toggle"><span class="btn btn-danger btn-border menubutton">
+                <span class="glyphicon glyphicon glyphicon-align-justify"></span>
+          </span></a>
+          <form class="navbar-form navbar-right hidden-xs">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+              </div>
+          </form>
+      </div>
+      <!-- /.navbar-header -->
+      <ul class="nav navbar-top-links navbar-right">
+
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <i class="fa fa-envelope fa-stack icon-border fa-fw"></i><i class="label label-danger">4</i>
+              </a>
+              <ul class="dropdown-menu dropdown-messages animated bounceIn">
+                  <li>
+                      <a href="#">
+                          <div class="pull-left">
+                              <img class="img-circle" src="assets/images/01.jpg" alt="" />
+                          </div>
+                          <strong>John Smith</strong>
+                          <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <div class="pull-left">
+                              <img class="img-circle" src="assets/images/02.jpg" alt="" />
+
+                          </div>
+                          <strong>John Smith</strong>
+                          <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <div class="pull-left">
+                              <img class="img-circle" src="assets/images/03.jpg" alt="" />
+
+                          </div>
+                          <strong>John Smith</strong>
+                          <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <div class="pull-left">
+                              <img class="img-circle" src="assets/images/04.jpg" alt="" />
+                          </div>
+                          <strong>John Smith</strong>
+                          <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <div class="pull-left">
+                              <img class="img-circle" src="assets/images/01.jpg" alt="" />
+
+                          </div>
+                          <strong>John Smith</strong>
+                          <span class="pull-right text-warning">
+                                      <em>Yesterday</em>
+                              </span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a class="text-center" href="#">
+                          <strong>Read All Messages</strong>
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </li>
+              </ul>
+              <!-- /.dropdown-messages -->
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <i class="fa fa-tasks fa-stack icon-border fa-fw"></i> <i class="label label-default">3</i>
+              </a>
+              <ul class="dropdown-menu dropdown-tasks animated fadeIn">
+                  <li>
+                      <a href="#">
+                          <div>
+                              <p>
+                                  <strong>Download</strong>
+                                  <span class="pull-right text-muted">40% Complete</span>
+                              </p>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                      <span class="sr-only">40% Complete (success)</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <p>
+                                  <strong>Upload</strong>
+                                  <span class="pull-right text-muted">20% Complete</span>
+                              </p>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                      <span class="sr-only">20% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <p>
+                                  <strong>Install</strong>
+                                  <span class="pull-right text-muted">60% Complete</span>
+                              </p>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                      <span class="sr-only">60% Complete (warning)</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <p>
+                                  <strong>update</strong>
+                                  <span class="pull-right text-muted">80% Complete</span>
+                              </p>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                      <span class="sr-only">80% Complete (danger)</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a class="text-center" href="#">
+                          <strong>See All Tasks</strong>
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </li>
+              </ul>
+              <!-- /.dropdown-tasks -->
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <i class="fa fa-bell fa-stack icon-border fa-fw"></i><i class="label label-warning">4</i>
+              </a>
+              <ul class="dropdown-menu dropdown-alerts animated flipInX">
+                  <li>
+                      <a href="#">
+                          <div>
+                              <i class="fa fa-comment fa-fw text-success"></i> New Comment
+                              <span class="pull-right text-muted small">4 minutes ago</span>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <i class="fa fa-twitter fa-fw text-danger"></i> 3 New Followers
+                              <span class="pull-right text-muted small">12 minutes ago</span>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <i class="fa fa-envelope fa-fw text-primary"></i> Message Sent
+                              <span class="pull-right text-muted small">4 minutes ago</span>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <i class="fa fa-tasks fa-fw text-warning"></i> New Task
+                              <span class="pull-right text-muted small">4 minutes ago</span>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a href="#">
+                          <div>
+                              <i class="fa fa-upload fa-fw text-info"></i> Server Rebooted
+                              <span class="pull-right text-muted small">4 minutes ago</span>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                      <a class="text-center" href="#">
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+                  </li>
+              </ul>
+              <!-- /.dropdown-alerts -->
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  <i class="fa fa-user icon-border fa-stack fa-fw"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-user">
+                  <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="login.htmll"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                  </li>
+              </ul>
+              <!-- /.dropdown-user -->
+          </li>
+          <!-- /.dropdown -->
+      </ul>
+      <!-- /.navbar-top-links -->
+      <div class="navbar-default sidebar animated fadeIn" role="navigation">
+          <div class="sidebar-nav navbar-collapse">
+              <ul class="nav" id="side-menu">
+                  <li class="sidebar-search visible-xs">
+                      <div class="input-group custom-search-form">
+                          <input type="text" class="form-control" placeholder="Search...">
+                          <span class="input-group-btn">
+                              <button class="btn btn-danger-outline" type="button">
+                                  <i class="fa fa-search"></i>
+                              </button>
+                          </span>
+                      </div>
+                      <!-- /input-group -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-dashboard fa-fw"></i> Dashboard<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="dashboard1.html"> <span class="fa fa-angle-right"></span> Dashboard v1</a>
+                          </li>
+                          <li>
+                              <a href="dashboard2.html"><span class="fa fa-angle-right"></span> Dashboard v2</a>
+                          </li>
+                          <li>
+                              <a href="dashboard3.html"><span class="fa fa-angle-right"></span> Dashboard v3</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="chart-flotchart.html"> <span class="fa fa-angle-right"></span> Flot Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-moris.html"><span class="fa fa-angle-right"></span> Morris Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-rickshow.html"><span class="fa fa-angle-right"></span> Rickshow charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-justgage.html"><span class="fa fa-angle-right"></span> Justguage Charts</a>
+                          </li>
+                          <li>
+                              <a href="chart-chartjs.html"><span class="fa fa-angle-right"></span> Chart JS</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="widget.html"><span class="fa fa-windows fa-fw"></span> Widgets</a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> UI-element<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="ui-buttons.html"> <span class="fa fa-angle-right"></span> Buttons</a>
+                          </li>
+                          <li>
+                              <a href="ui-notification.html"><span class="fa fa-angle-right"></span> Notification</a>
+                          </li>
+                          <li>
+                              <a href="ui-panels.html"><span class="fa fa-angle-right"></span> Panels</a>
+                          </li>
+                          <li>
+                              <a href="ui-progress.html"> <span class="fa fa-angle-right"></span> Progress</a>
+                          </li>
+                          <li>
+                              <a href="ui-tabs.html"><span class="fa fa-angle-right"></span> Tabs</a>
+                          </li>
+                          <li>
+                              <a href="ui-typograhpy.html"><span class="fa fa-angle-right"></span> Typography</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-folder-open fa-fw"></i> Forms<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="formbasic.html"> <span class="fa fa-angle-right"></span> Form basic</a>
+                          </li>
+                          <li>
+                              <a href="formadvanced.html"><span class="fa fa-angle-right"></span> Form Advanced</a>
+                          </li>
+                          <li>
+                              <a href="form-validate.html"><span class="fa fa-angle-right"></span> Form Validate</a>
+                          </li>
+                          <li>
+                              <a href="form-upload.html"> <span class="fa fa-angle-right"></span> Form upload</a>
+                          </li>
+                          <li>
+                              <a href="form-timline.html"><span class="fa fa-angle-right"></span> Timeline</a>
+                          </li>
+                          <li>
+                              <a href="form-texteditor.html"><span class="fa fa-angle-right"></span> Text Editor</a>
+                          </li>
+                          <li>
+                              <a href="form-markdown.html"><span class="fa fa-angle-right"></span> Markdown</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-envelope-o fa-fw"></i> Mail box<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="mail.html"> <span class="fa fa-angle-right"></span> Form basic</a>
+                          </li>
+                          <li>
+                              <a href="mail-view.html"><span class="fa fa-angle-right"></span> Form Advanced</a>
+                          </li>
+
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-table fa-fw"></i> Tables<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="tabels-static.html"> <span class="fa fa-angle-right"></span> Static tables</a>
+                          </li>
+                          <li>
+                              <a href="tables-datatables.html"><span class="fa fa-angle-right"></span> Data tables</a>
+                          </li>
+
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="maps-vector.html"><i class="fa fa-map-marker fa-fw"></i> Maps</a>
+                    </li>
+                  <li>
+                      <a href="#"><i class="fa fa-picture-o fa-fw"></i> Gallery<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="gallery-lightbox.html"> <span class="fa fa-angle-right"></span> Light box</a>
+                          </li>
+                          <li>
+                              <a href="galley-owlcurasol.html"><span class="fa fa-angle-right"></span> Owl curasol</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> Ecommerce<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="ecommerce-productgrid.html"> <span class="fa fa-angle-right"></span> Product grid</a>
+                          </li>
+                          <li>
+                              <a href="ecommerce-productlist.html"><span class="fa fa-angle-right"></span> Product list</a>
+                          </li>
+                          <li>
+                              <a href="ecommerce-productview.html"><span class="fa fa-angle-right"></span> Product view</a>
+                          </li>
+                          <li>
+                              <a href="ecommerce-shopingcart.html"><span class="fa fa-angle-right"></span> Shoping cart</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+
+
+                  <li>
+                      <a href="#"><i class="fa fa-pagelines fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="pages-login.html">login page</a>
+                          </li>
+                          <li>
+                              <a href="pages-register.html">Register page</a>
+                          </li>
+                          <li>
+                              <a href="pages-lockscreen.html">Lock screen</a>
+                          </li>
+                          <li>
+                              <a href="pages-forgetpassword.html">Forget password</a>
+                          </li>
+                          <li>
+                              <a href="pages-404.html">404Page</a>
+                          </li>
+                          <li>
+                              <a href="pages-505.html">505Page</a>
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+                  <li>
+                      <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="#">Second Level Item</a>
+                          </li>
+                          <li>
+                              <a href="#">Second Level Item</a>
+                          </li>
+                          <li>
+                              <a href="#">Third Level <span class="fa arrow"></span></a>
+                              <ul class="nav nav-third-level">
+                                  <li>
+                                      <a href="#">Third Level Item</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Third Level Item</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Third Level Item</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Third Level Item</a>
+                                  </li>
+                              </ul>
+                              <!-- /.nav-third-level -->
+                          </li>
+                      </ul>
+                      <!-- /.nav-second-level -->
+                  </li>
+              </ul>
+          </div>
+          <!-- /.sidebar-collapse -->
+      </div>
+      <!-- /.navbar-static-side -->
+  </nav>
+
+    <div id="page-wrapper" class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header">
+                    <h1>Dashboard V1 <span class="fa fa-star fa-1x"></span></h1>
+                </div>
+            </div>
+        </div>
+        <!--End Headr -->
+        <!-- Start Main Content -->
+        <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="mainpanel">
+                    <canvas id="myChart" height="150"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="mainpanel">
+                    <canvas id="Chart" height="150"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="mainpanel border-down border-left" style="height: 150px">
+                    <div class="col-xs-6">
+                        <canvas id="skills1"></canvas>
+                    </div>
+                    <div class="col-xs-6">
+                        <h4>Vistors Today</h4>
+                        <h1>20342</h1>
+                        <i class="fa fa-arrow-circle-up text-danger fa-lg">33%</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="mainpanel border-down border-left" style="height: 150px">
+                    <div class="col-xs-6">
+                        <canvas id="skills2"></canvas>
+                    </div>
+                    <div class="col-xs-6">
+                        <h4>Oders Today</h4>
+                        <h1>204</h1>
+                        <i class="fa fa-arrow-circle-up text-success fa-lg">56%</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="mainpanel border-down border-left" style="height: 150px">
+                    <div class="col-xs-6">
+                        <canvas id="skills3"></canvas>
+                    </div>
+                    <div class="col-xs-6">
+                        <h4>Ships Today</h4>
+                        <h1>20</h1>
+                        <i class="fa fa-arrow-circle-o-down text-danger fa-lg">22%</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="weather-widget">
+                    <img class="img-responsive" src="assets/images/weather.jpg" alt="" />
+                    <div class="caption text-center">
+                        <h1>New York<small> City</small></h1>
+                        <i class="fa fa-sun-o "></i>
+                        <h3>Sunday</h3>
+                        <h5>4-5-2016</h5>
+                        <i class="fa fa-cloud"></i>
+                        <h1>22c</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <div class="staticpanel todolist">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            To do list
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="checkbox checkbox-primary">
+                                        <input id="checkbox1" type="checkbox">
+                                        <label for="checkbox1"></label>
+                                        <span>Pending Orders</span>
+                                        <span class="label label-danger">Tommorow</span>
+                                        <div class="btn-group-xs pull-right">
+                                            <button class="btn btn-success" type="button" name="button"><span class="fa fa-check"></span></button>
+                                            <button class="btn btn-info" type="button" name="button"><span class="fa fa-pencil"></span></button>
+                                            <button class="btn btn-danger" type="button" name="button"><span class="fa fa-trash"></span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox checkbox-primary">
+                                        <input id="checkbox2" type="checkbox">
+                                        <label for="checkbox2"></label>
+                                        <span>Pending Orders</span>
+                                        <span class="label label-success">yesterday</span>
+                                        <div class="btn-group-xs pull-right">
+                                            <button class="btn btn-success" type="button" name="button"><span class="fa fa-check"></span></button>
+                                            <button class="btn btn-info" type="button" name="button"><span class="fa fa-pencil"></span></button>
+                                            <button class="btn btn-danger" type="button" name="button"><span class="fa fa-trash"></span></button>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox checkbox-primary">
+                                        <input id="checkbox3" type="checkbox">
+                                        <label for="checkbox3"></label>
+                                        <span>Pending Orders</span>
+                                        <span class="label label-warning">Next weak</span>
+                                        <div class="btn-group-xs pull-right">
+                                            <button class="btn btn-success" type="button" name="button"><span class="fa fa-check"></span></button>
+                                            <button class="btn btn-info" type="button" name="button"><span class="fa fa-pencil"></span></button>
+                                            <button class="btn btn-danger" type="button" name="button"><span class="fa fa-trash"></span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox checkbox-primary">
+                                        <input id="checkbox4" type="checkbox">
+                                        <label for="checkbox4"></label>
+                                        <span>Pending Orders</span>
+                                        <span class="label label-info">Now</span>
+                                        <div class="btn-group-xs pull-right">
+                                            <button class="btn btn-success" type="button" name="button"><span class="fa fa-check"></span></button>
+                                            <button class="btn btn-info" type="button" name="button"><span class="fa fa-pencil"></span></button>
+                                            <button class="btn btn-danger" type="button" name="button"><span class="fa fa-trash"></span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="checkbox checkbox-primary">
+                                        <input id="checkbox5" type="checkbox">
+                                        <label for="checkbox5"></label>
+                                        <span>Pending Orders</span>
+                                        <span class="label label-info">Now</span>
+                                        <div class="btn-group-xs pull-right">
+                                            <button class="btn btn-success" type="button" name="button"><span class="fa fa-check"></span></button>
+                                            <button class="btn btn-info" type="button" name="button"><span class="fa fa-pencil"></span></button>
+                                            <button class="btn btn-danger" type="button" name="button"><span class="fa fa-trash"></span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="input-group">
+                                <input id="btn-input1" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                <div class="input-group-btn">
+                                    <button class="btn btn-success btn-border btn-sm" id="btn-chat1">Add Task</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="staticpanel recentcoment-widget">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Recent Comments <span class="glyphicon glyphicon-comment"></span></h3>
+                            <span class="label label-warning pull-right">78</span>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-md-2">
+                                            <img src="assets/images/04.jpg" class="img-circle img-responsive" alt="" /></div>
+                                        <div class="col-xs-10 col-md-10">
+                                            <div>
+                                                <a href="#">Google Style Login Page Design Using Bootstrap</a>
+                                                <div class="mic-info">
+                                                    By: <a href="#">Bhaumik Patel</a> on 2 Aug 2013
+                                                </div>
+                                            </div>
+                                            <div class="comment-text">
+                                                Awesome design
+                                            </div>
+                                            <div class="action">
+                                                <button type="button" class="btn btn-primary btn-xs" title="Edit"><span class="glyphicon glyphicon-pencil"></span></button>
+                                                <button type="button" class="btn btn-success btn-xs" title="Approved"><span class="glyphicon glyphicon-ok"></span></button>
+                                                <button type="button" class="btn btn-danger btn-xs" title="Delete"><span class="glyphicon glyphicon-trash"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-md-2">
+                                            <img src="assets/images/02.jpg" class="img-circle img-responsive" alt="" /></div>
+                                        <div class="col-xs-10 col-md-10">
+                                            <div>
+                                                <a href="#">Admin Panel Quick Shortcuts</a>
+                                                <div class="mic-info">
+                                                    By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+                                                </div>
+                                            </div>
+                                            <div class="comment-text">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                                            </div>
+                                            <div class="action">
+                                                <button type="button" class="btn btn-primary btn-xs" title="Edit"><span class="glyphicon glyphicon-pencil"></span></button>
+                                                <button type="button" class="btn btn-success btn-xs" title="Approved"><span class="glyphicon glyphicon-ok"></span></button>
+                                                <button type="button" class="btn btn-danger btn-xs" title="Delete"><span class="glyphicon glyphicon-trash"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-md-2">
+                                            <img src="assets/images/01.jpg" class="img-circle img-responsive" alt="" /></div>
+                                        <div class="col-xs-10 col-md-10">
+                                            <div>
+                                                <a href="#">Cool Sign Up</a>
+                                                <div class="mic-info">
+                                                    By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+                                                </div>
+                                            </div>
+                                            <div class="comment-text">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                                            </div>
+                                            <div class="action">
+                                                <button type="button" class="btn btn-primary btn-xs" title="Edit"><span class="glyphicon glyphicon-pencil"></span></button>
+                                                <button type="button" class="btn btn-success btn-xs" title="Approved"><span class="glyphicon glyphicon-ok"></span></button>
+                                                <button type="button" class="btn btn-danger btn-xs" title="Delete"><span class="glyphicon glyphicon-trash"></span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-warning-outline btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Lasty activties
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><i class="fa fa-plus-circle fa-lg text-danger"></i>
+                                    <span class="badge badge-danger">2h</span> Cras justo odio
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item"><i class="fa fa-plus-circle fa-lg text-danger"></i><span class="badge badge-success">2days</span> Dapibus ac facilisis in</li>
+                                <li class="list-group-item"><i class="fa fa-plus-circle fa-lg text-danger"></i><span class="badge badge-warning">22h</span> Morbi leo risus</li>
+                                <li class="list-group-item"><i class="fa fa-plus-circle fa-lg text-danger"></i><span class="badge badge-danger">22h</span> Porta ac consectetur ac</li>
+                                <li class="list-group-item"><i class="fa fa-plus-circle fa-lg text-danger"></i><span class="badge badge-danger">3h</span> Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Time Line
+                        </div>
+                        <div class="panel-body">
+                            <div class="main-timeline-container">
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge warning"><i class="fa fa-circle"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h5 class="timeline-title">Mussum ipsum cacilds</h5>
+                                                <p><small class="text-danger"><i class="glyphicon glyphicon-time"></i>11 hours ago via Twitter</small></p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge warning"><i class="fa fa fa-circle"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h5 class="timeline-title">Mussum ipsum cacilds</h5>
+                                                <p><small class="text-danger"><i class="glyphicon glyphicon-time"></i>2 days ago via facebook</small></p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <img class="img-responsive" src="assets/images/slider1.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-badge danger"><i class="fa fa fa-circle"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h5 class="timeline-title">Mussum ipsum cacilds</h5>
+                                                <p><small class="text-danger"><i class="glyphicon glyphicon-time"></i>11 hours ago via Twitter</small></p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <img class="img-responsive" src="assets/images/slider2.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="timeline-inverted">
+                                        <div class="timeline-badge danger"><i class="fa fa-circle"></i>
+                                        </div>
+                                        <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h5 class="timeline-title">Mussum ipsum cacilds</h5>
+                                                <p><small class="text-danger"><i class="glyphicon glyphicon-time"></i>11 hours ago via Twitter</small></p>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Content -->
+        <div class="row">
+            <div class="footer">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <h5 class="pull-left">&copy;	All Rights Reserved  AS TEAM </h5>
+                    <h5 class="pull-right">A-Plus v 1.0.0 </h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- /#page-wrapper -->
+    </div>
+</div>
+<!-- /#wrapper -->
+
+<!-- Start Main Script aAll Pages -->
+<script src="assets/js/basics/jquery-3.1.0.min.js"></script>
+<script src="assets/js/basics/bootstrap.min.js"></script>
+<script src="assets/js/basics/metisMenu.min.js"></script>
+<script src="assets/js/function.js"></script>
+
+<!-- End Main Scripts All Pages -->
+<!-- Start  Script Dshborad v1 Page -->
+<!-- Start charts js Scripts -->
+<script src="assets/js/plugins/Chartjs/Chart.min.js"></script>
+<script src="assets/js/dashborad1.js"></script>
+<!-- End  Scripts Pie Gage Page -->
+</body>
+
+</html>

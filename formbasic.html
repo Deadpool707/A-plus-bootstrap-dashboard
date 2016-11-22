@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>A-plus</title>
+    <link href="assets/css/basics/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/basics/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/basics/animate.css" rel="stylesheet">
+    <link href="assets/css/basics/normalize.css" rel="stylesheet">
+    <link href="assets/css/basics/responsive.css" rel="stylesheet">
+    <link class="mainstyle" href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/basics/html5shiv.js"></script>
+    <script src="assets/js/basics/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!--/head-->
+
+<div id="wrapper">
+    <!-- START COLOR SETTING SECTION -->
+    <ul class="list-inline setting">
+        <li class="icon-setting"><i class="fa fa-gear fa-2x fa-spin"></i></li>
+        <li>
+            <div class="setting-menu animated fadeIn">
+                <h4 class="text-danger text-center">Color Setting</h4>
+                <hr>
+                <ul class="list-unstyled colorlist">
+                    <li><a href="#" rel="assets/css/style.css">Default Color</a></li>
+                    <li><a href="#" rel="assets/css/color/dark1.css">Dark One</a></li>
+                    <li><a href="#" rel="assets/css/color/dark2.css">Dark Two</a></li>
+                    <li><a href="#" rel="assets/css/color/bright1.css">Bright One</a></li>
+                    <li><a href="#" rel="assets/css/color/bright2.css">Bright Two</a></li>
+
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <!-- END COLOR SETTING SECTION -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.htmll"><img src="assets/images/logo.png" alt="" style="height:40px;" /></a>
+            <a class="hidden-xs" id="menu-toggle"><span class="btn btn-border menubutton">
+                <span class="glyphicon glyphicon-remove animated fadeIn"></span>
+          </span></a>
+            <form class="navbar-form navbar-right hidden-xs">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>
+        </div>
+        <!-- /.navbar-header -->
+        <ul class="nav navbar-top-links navbar-right hidden-xs">
+            <li class="hidden-xs">Welcome To A-plus Dashboard</li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-envelope fa-stack icon-border fa-fw"></i><i class="label label-danger">4</i>
+                </a>
+                <ul class="dropdown-menu dropdown-messages animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/01.jpg" alt="" />
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/02.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/03.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/04.jpg" alt="" />
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-danger">
+                                      <em>Yesterday</em>
+                              </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img class="img-circle" src="assets/images/01.jpg" alt="" />
+
+                            </div>
+                            <strong>John Smith</strong>
+                            <span class="pull-right text-warning">
+                                      <em>Yesterday</em>
+                              </span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</p>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>Read All Messages</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-messages -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-tasks fa-stack icon-border fa-fw"></i> <i class="label label-default">3</i>
+                </a>
+                <ul class="dropdown-menu dropdown-tasks animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Download</strong>
+                                    <span class="pull-right text-muted">40% Complete</span>
+                                </p>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40% Complete (success)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Upload</strong>
+                                    <span class="pull-right text-muted">20% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        <span class="sr-only">20% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>Install</strong>
+                                    <span class="pull-right text-muted">60% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% Complete (warning)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <p>
+                                    <strong>update</strong>
+                                    <span class="pull-right text-muted">80% Complete</span>
+                                </p>
+                                <div class="progress progress-striped active">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        <span class="sr-only">80% Complete (danger)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>See All Tasks</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-tasks -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-bell fa-stack icon-border fa-fw"></i><i class="label label-warning">4</i>
+                </a>
+                <ul class="dropdown-menu dropdown-alerts animated fadeIn">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-comment fa-fw text-success"></i> New Comment
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-twitter fa-fw text-danger"></i> 3 New Followers
+                                <span class="pull-right text-muted small">12 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-envelope fa-fw text-primary"></i> Message Sent
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-tasks fa-fw text-warning"></i> New Task
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-upload fa-fw text-info"></i> Server Rebooted
+                                <span class="pull-right text-muted small">4 minutes ago</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="text-center" href="#">
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-alerts -->
+            </li>
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="fa fa-user icon-border fa-stack fa-fw"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="login.htmll"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+        </ul>
+        <!-- /.navbar-top-links -->
+        <div class="navbar-default sidebar animated fadeIn" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <div class="profile">
+                    <img src="assets/images/01.jpg" class="pull-left img-circle" alt="" />
+                    <div class="pull-left name">
+                        <i>ALex Wilder</i>
+                        <br>
+                        <i class="fa fa-circle text-success"> Online</i>
+                    </div>
+                </div>
+                <ul class="nav" id="side-menu">
+                    <li class="sidebar-search visible-xs">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                              <button class="btn btn-danger-outline" type="button">
+                                  <i class="fa fa-search"></i>
+                              </button>
+                          </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="index.html"> <span class="fa fa-circle-o"></span> Dashboard v1</a>
+                            </li>
+                            <li>
+                                <a href="index2.html"><span class="fa fa-circle-o"></span> Dashboard v2</a>
+                            </li>
+                            <li>
+                                <a href="index3.html"><span class="fa fa-circle-o"></span> Dashboard v3</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="chart-flotchart.html"> <span class="fa fa-circle-o"></span> Flot Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-moris.html"><span class="fa fa-circle-o"></span> Morris Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-rickshow.html"><span class="fa fa-circle-o"></span> Rickshow charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-justgage.html"><span class="fa fa-circle-o"></span> Justguage Charts</a>
+                            </li>
+                            <li>
+                                <a href="chart-chartjs.html"><span class="fa fa-circle-o"></span> Chart JS</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="widget.html"><i class="fa fa-windows fa-fw"></i> Widgets</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> UI-element<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="ui-buttons.html"> <span class="fa fa-circle-o"></span> Buttons</a>
+                            </li>
+                            <li>
+                                <a href="ui-notification.html"><span class="fa fa-circle-o"></span> Notification</a>
+                            </li>
+                            <li>
+                                <a href="ui-panels.html"><span class="fa fa-circle-o"></span> Panels</a>
+                            </li>
+                            <li>
+                                <a href="ui-progress.html"> <span class="fa fa-circle-o"></span> Progress</a>
+                            </li>
+                            <li>
+                                <a href="ui-tabs.html"><span class="fa fa-circle-o"></span> Tabs</a>
+                            </li>
+                            <li>
+                                <a href="ui-typograhpy.html"><span class="fa fa-circle-o"></span> Typography</a>
+                            </li>
+                            <li>
+                                <a href="ui-radio.html"><span class="fa fa-circle-o"></span> Radio and Checkbox</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-folder-open fa-fw"></i> Forms<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="formbasic.html"> <span class="fa fa-circle-o"></span> Form basic</a>
+                            </li>
+                            <li>
+                                <a href="formadvanced.html"><span class="fa fa-circle-o"></span> Form Advanced</a>
+                            </li>
+                            <li>
+                                <a href="form-validate.html"><span class="fa fa-circle-o"></span> Form Validate</a>
+                            </li>
+                            <li>
+                                <a href="form-upload.html"> <span class="fa fa-circle-o"></span> Form upload</a>
+                            </li>
+                            <li>
+                                <a href="form-timline.html"><span class="fa fa-circle-o"></span> Timeline</a>
+                            </li>
+                            <li>
+                                <a href="form-texteditor.html"><span class="fa fa-circle-o"></span> Text Editor</a>
+                            </li>
+                            <li>
+                                <a href="form-markdown.html"><span class="fa fa-circle-o"></span> Markdown</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-envelope-o fa-fw"></i> Mail box<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="mail.html"><span class="fa fa-circle-o"></span> Mail</a>
+                            </li>
+                            <li>
+                                <a href="mail-view.html"><span class="fa fa-circle-o"></span> Mail-View</a>
+                            </li>
+                            <li>
+                                <a href="mail-compose.html"><span class="fa fa-circle-o"></span> Mail-compose</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-table fa-fw"></i> Tables<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="tabels-static.html"> <span class="fa fa-circle-o"></span> Static tables</a>
+                            </li>
+                            <li>
+                                <a href="tables-datatables.html"><span class="fa fa-circle-o"></span> Data tables</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="maps-vector.html"><i class="fa fa-map-marker fa-fw"></i> Maps</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-picture-o fa-fw"></i> Gallery<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="gallery-lightbox.html"> <span class="fa fa-circle-o"></span> Light box</a>
+                            </li>
+                            <li>
+                                <a href="galley-owlcurasol.html"><span class="fa fa-circle-o"></span> Owl curasol</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-shopping-cart fa-fw"></i> Ecommerce<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="ecommerce-productgrid.html"> <span class="fa fa-circle-o"></span> Product grid</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-productlist.html"><span class="fa fa-circle-o"></span> Product list</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-productview.html"><span class="fa fa-circle-o"></span> Product view</a>
+                            </li>
+                            <li>
+                                <a href="ecommerce-shopingcart.html"><span class="fa fa-circle-o"></span> Shoping cart</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-pagelines fa-fw"></i> Extra Pages<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="pages-login.html"><span class="fa fa-circle-o"></span> login page</a>
+                            </li>
+                            <li>
+                                <a href="pages-register.html"><span class="fa fa-circle-o"></span> Register page</a>
+                            </li>
+                            <li>
+                                <a href="pages-lockscreen.html"><span class="fa fa-circle-o"></span> Lock screen</a>
+                            </li>
+                            <li>
+                                <a href="pages-forgetpassword.html"><span class="fa fa-circle-o"></span> Forget password</a>
+                            </li>
+                            <li>
+                                <a href="pages-404.html"><span class="fa fa-circle-o"></span> 404Page</a>
+                            </li>
+                            <li>
+                                <a href="pages-505.html"><span class="fa fa-circle-o"></span> 505Page</a>
+                            </li>
+                            <li>
+                                <a href="blankpage.html"><span class="fa fa-circle-o"></span> Blank page</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#"><span class="fa fa-circle-o"></span> Second Level Item</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="fa fa-circle-o"></span> Second Level Item</a>
+                            </li>
+                            <li>
+                                <a href="#">Third Level <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-circle-o"></span> Third Level Item</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-third-level -->
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+
+    <div id="page-wrapper" class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header">
+                    <h1>Basic Forms <span class="fa fa-folder-o fa-1x"></span></h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Basic Forms</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--End Headr -->
+        <!-- Start Main content -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">Sign In Form</div>
+                        <div class="panel-body">
+                            <h3 class="text-center">Sign In Now</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    Remember Me
+                                  </label>
+                                </div>
+                                <button type="submit" class="btn btn-warning btn-border">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Disabled Form
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <fieldset disabled>
+                                    <div class="form-group">
+                                        <label for="disabledTextInput">Disabled input</label>
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="disabledSelect">Disabled select menu</label>
+                                        <select id="disabledSelect" class="form-control">
+                                        <option>Disabled select</option>
+                                      </select>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                      <input type="checkbox"> Can't check this
+                                    </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning btn-border">Submit</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Inline Form
+                        </div>
+                        <div class="panel-body">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                                </div>
+                                <button type="button" class="btn btn-warning btn-rounded">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Big Varaible Form
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp1" placeholder="Enter email">
+                                    <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword2">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <label for="exampleSelect1">Example select</label>
+                                    <select class="form-control" id="exampleSelect1">
+                                          <option>1</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleSelect2">Example multiple select</label>
+                                    <select multiple class="form-control" id="exampleSelect2">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Example textarea</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                                </div>
+                                <fieldset class="form-group">
+                                    <legend>Radio buttons</legend>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                      Option one is this and that&mdash;be sure to include why it's great
+                                    </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                      Option two can be something else and selecting it will deselect option one
+                                    </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                                      Option three is disabled
+                                    </label>
+                                    </div>
+                                </fieldset>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    Check me out
+                                  </label>
+                                </div>
+                                <button type="submit" class="btn btn-danger-outline">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="staticpanel">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            Variabls
+                        </div>
+                        <h3>Options</h3>
+                        <div class="panel-body">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                Option one is this and that&mdash;be sure to include why it's great
+                              </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                Option two can be something else and selecting it will deselect option one
+                              </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                                Option three is disabled
+                              </label>
+                            </div>
+                            <hr>
+                            <h3> Inline Square Check</h3>
+                            <label class="form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                            </label>
+                            <label class="form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                              </label>
+                            <label class="form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                              </label>
+                            <hr>
+                            <h3>Inline Circle Check</h3>
+                            <label class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                              </label>
+                            <label class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                              </label>
+                            <label class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                              </label>
+                            <hr>
+                            <div class="form-group has-success">
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Check this custom checkbox</span>
+                                </label>
+                            </div>
+                            <div class="form-group has-warning">
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Check this custom checkbox</span>
+                                </label>
+                            </div>
+                            <div class="form-group has-danger m-b-0">
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Check this custom checkbox</span>
+                                </label>
+                            </div>
+                            <div class="custom-controls-stacked">
+                                <label class="custom-control custom-radio">
+                                <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">Toggle this custom radio</span>
+                              </label>
+                                <label class="custom-control custom-radio">
+                                <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">Or toggle this other custom radio</span>
+                              </label>
+                            </div>
+                            <hr>
+                            <h3>Select Menu</h3>
+                            <select class="custom-select">
+                              <option selected>Open this select menu</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <hr>
+                            <h3>Validation</h3>
+                            <div class="form-group has-success">
+                                <label class="col-form-label" for="inputSuccess1">Input with success</label>
+                                <input type="text" class="form-control form-control-success" id="inputSuccess1">
+                                <div class="form-control-feedback"></div>
+                                <small class="form-text text-muted"></small>
+                            </div>
+                            <div class="form-group has-warning">
+                                <label class="col-form-label" for="inputWarning1">Input with warning</label>
+                                <input type="text" class="form-control form-control-warning" id="inputWarning1">
+                                <div class="form-control-feedback"></div>
+                                <small class="form-text text-muted"></small>
+                            </div>
+                            <div class="form-group has-danger">
+                                <label class="col-form-label" for="inputDanger1">Input with danger</label>
+                                <input type="text" class="form-control form-control-danger" id="inputDanger1">
+                                <div class="form-control-feedback"></div>
+                                <small class="form-text text-muted"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main content -->
+        <div class="row">
+            <div class="footer">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <h5 class="pull-left">&copy; All Rights Reserved AS TEAM </h5>
+                    <h5 class="pull-right">A-Plus v 1.0.0 </h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- /#page-wrapper -->
+    </div>
+</div>
+<!-- /#wrapper -->
+
+<!-- Start Main Script aAll Pages -->
+<script src="assets/js/basics/jquery-3.1.0.min.js"></script>
+<script src="assets/js/basics/bootstrap.min.js"></script>
+<script src="assets/js/basics/metisMenu.min.js"></script>
+<script src="assets/js/basics/jquery.cookie.js"></script>
+<script src="assets/js/function.js"></script>
+
+<!-- End Main Scripts All Pages -->
+</body>
+
+</html>
